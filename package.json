@@ -2,13 +2,21 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
-    "test": "echo \"there are no tests\""
+    "start": "gatsby develop",
+    "clean": "gatsby clean",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
+    "gh-pages": "npx gh-pages -d public"
   },
-  "devDependencies": {
-    "code-surfer": "3.1.0",
-    "mdx-deck": "3.0.13"
-  },
-  "name": "framework-are-dead"
+  "devDependencies": {},
+  "name": "framework-are-dead",
+  "dependencies": {
+    "code-surfer": "^3.1.1",
+    "gatsby": "^2.24.56",
+    "gatsby-plugin-catch-links": "^2.3.11",
+    "gatsby-theme-mdx-deck": "^3.1.0",
+    "mdx-deck": "^3.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
