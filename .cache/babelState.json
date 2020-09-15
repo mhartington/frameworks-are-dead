@@ -23,8 +23,8 @@
         {
           "name": "/Users/mhartington/Github/framework-are-dead/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },
@@ -63,8 +63,8 @@
         {
           "name": "/Users/mhartington/Github/framework-are-dead/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },
@@ -103,8 +103,8 @@
         {
           "name": "/Users/mhartington/Github/framework-are-dead/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },
@@ -143,8 +143,8 @@
         {
           "name": "/Users/mhartington/Github/framework-are-dead/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },

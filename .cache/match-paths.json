@@ -1,9 +1,5 @@
 [
     {
-        "path": "/dev-404-page/",
-        "matchPath": "/dev-404-page/"
-    },
-    {
         "path": "/print",
         "matchPath": "/print"
     },

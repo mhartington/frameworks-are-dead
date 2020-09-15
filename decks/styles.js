@@ -1,19 +1,19 @@
 // import { themes } from 'mdx-deck'
 
 const customTheme = {
- fonts: {
+  fonts: {
     body: 'system-ui, sans-serif',
     heading: 'inherit',
-    monospace: '"Operator Mono", monospace'
+    monospace: '"Operator Mono", monospace',
   },
   fontWeights: {
-    body: 400,
+    body: 600,
     heading: 700,
-    bold: 700
+    bold: 700,
   },
   lineHeights: {
-    body: 1.5,
-    heading: 1.125
+    body: 1.75,
+    heading: 1.125,
   },
   colors: {
     text: '#434C6C',
@@ -25,11 +25,11 @@ const customTheme = {
     primary: '#3880FF',
     secondary: '#30c',
     muted: '#f6f6f6',
-    heading: '#151D34'
+    heading: '#151D34',
   },
   styles: {
-    Slide:{
-      fontSize: 64
+    Slide: {
+      fontSize: 64,
     },
     h1: {
       color: 'primary',
@@ -38,12 +38,12 @@ const customTheme = {
       textTransform: 'Uppercase',
       marginTop: 0,
       marginBottom: 0,
-      textAlign: 'center'
+      textAlign: 'center',
     },
     blockquote: {
       fontStyle: 'italic',
       width: '80%',
-      textAlign: 'center'
+      textAlign: 'center',
     },
     h2: {
       fontSize: '1.6em',
@@ -53,7 +53,7 @@ const customTheme = {
       textTransform: 'uppercase',
       wordSpacing: 20,
       textAlign: 'center',
-      color: 'heading'
+      color: 'heading',
     },
     h3: {
       fontSize: '1.3em',
@@ -71,13 +71,12 @@ const customTheme = {
       fontSize: '1.2em',
       marginBottom: 10,
       marginTop: 10,
-
     },
     root: {
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
-      fontSize: 64
+      fontSize: 64,
     },
     p: {
       fontFamily: 'body',
@@ -85,17 +84,17 @@ const customTheme = {
       lineHeight: 'body',
       textAlign: 'center',
       fontSize: '1em',
-      margin: 0
+      margin: 0,
     },
     li: {
-      fontSize: '1em'
+      fontSize: '1em',
     },
     a: {
       color: 'text',
       textDecoration: 'none',
-      transition: "color 0.15s ease",
+      transition: 'color 0.15s ease',
       ':hover': {
-        color: 'link'
+        color: 'link',
       },
       '::after': {
         content: '""',
@@ -110,7 +109,7 @@ const customTheme = {
       ':hover::after': {
         opacity: 1,
         transform: 'translate3D(0,0,0)',
-      }
+      },
     },
     pre: {
       fontFamily: 'monospace',
@@ -118,8 +117,8 @@ const customTheme = {
       textAlign: 'left !important',
       fontWeight: 500,
       code: {
-        color: 'inherit'
-      }
+        color: 'inherit',
+      },
     },
     code: {
       fontFamily: 'monospace',
@@ -128,31 +127,31 @@ const customTheme = {
     table: {
       width: '100%',
       borderCollapse: 'separate',
-      borderSpacing: 0
+      borderSpacing: 0,
     },
     th: {
       textAlign: 'left',
-      borderBottomStyle: 'solid'
+      borderBottomStyle: 'solid',
     },
     td: {
       textAlign: 'left',
-      borderBottomStyle: 'solid'
+      borderBottomStyle: 'solid',
     },
     img: {
       width: '100%',
       height: '100%',
-      objectFit: 'contain'
+      objectFit: 'contain',
     },
     ol: {
-      textAlign: 'left'
+      textAlign: 'left',
     },
     ul: {
       textAlign: 'center',
       listStyle: 'none',
       lineHeight: 1.6,
-      paddingInlineStart: 0
-    }
-  }
+      paddingInlineStart: 0,
+    },
+  },
 };
 
-export default { ...customTheme};
+export default { ...customTheme };

@@ -1,5 +1,5 @@
 module.exports = {
-  // pathPrefix: '/mdx-deck',
+  pathPrefix: '/frameworks-are-dead',
   plugins: [
     'gatsby-plugin-catch-links',
     {

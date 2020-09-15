@@ -1,5 +1,0 @@
-
-    const cmd = require("/Users/mhartington/Github/framework-are-dead/node_modules/gatsby/dist/commands/develop-process.js");
-    const args = {"_":["develop"],"verbose":false,"no-color":false,"no-colors":false,"noColors":false,"noColor":false,"json":false,"H":"localhost","host":"localhost","p":"8000","port":54337,"c":"","cert-file":"","certFile":"","k":"","key-file":"","keyFile":"","ca-file":"","caFile":"","graphql-tracing":false,"graphqlTracing":false,"$0":"gatsby","directory":"/Users/mhartington/Github/framework-are-dead","browserslist":[">0.25%","not dead"],"sitePackageJson":{"private":true,"version":"1.0.0","scripts":{"start":"gatsby develop","clean":"gatsby clean","build":"gatsby build --prefix-paths","serve":"gatsby serve --prefix-paths","gh-pages":"npx gh-pages -d public"},"devDependencies":{},"name":"framework-are-dead","dependencies":{"code-surfer":"^3.1.1","gatsby":"^2.24.56","gatsby-plugin-catch-links":"^2.3.11","gatsby-theme-mdx-deck":"^3.1.0","mdx-deck":"^3.1.0","react":"^16.13.1","react-dom":"^16.13.1"}},"report":{},"useYarn":false,"proxyPort":8000,"ssl":null,"debugInfo":null};
-    cmd(args);
-  
