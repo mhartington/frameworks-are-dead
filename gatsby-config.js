@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/frameworks-are-dead',
+  // pathPrefix: '/frameworks-are-dead',
   plugins: [
     'gatsby-plugin-catch-links',
     {
